@@ -8,3 +8,8 @@
 </p>
 
 ## Экзамен по PHP - Laravel (CRUD, SQLite, Laravel Breeze, Tailwind CSS)
+
+### Простенький CRUD на примере постов
+    * Sqllite - в качестве бд
+    * Laravel Breeze - для функционала аутентификации
+    * Tailwind CSS - вместо бутстрапа

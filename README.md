@@ -19,17 +19,17 @@
 ### В терминале, из папки проекта, прописываем команды: 
 
 Генерируем ключ
-    php artisan key:generate
+      php artisan key:generate
 
 Выполняем сборку
-    npm run build
+      npm run build
 
 Запускаем проект
-    php artisan serve
+      php artisan serve
 переходим по ссылке: http://127.0.0.1:8000
 
 Для входа можно зарегистрироваться или использовать тестовую учётку:
 логин
-    qqq@mail.ru
+      qqq@mail.ru
 пароль
-    qqqqqqqq
+      qqqqqqqq

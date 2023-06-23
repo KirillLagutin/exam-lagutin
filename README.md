@@ -26,7 +26,7 @@
       composer require laravel/breeze --dev
   На вопрос, какой стек установить отвечаем 0 — Blade
     
-    #### Далее запускам инсталляцию Laravel Breeze следующей командой Artisan:
+#### Далее запускам инсталляцию Laravel Breeze следующей командой Artisan:
       php artisan breeze:install
       
   * Также можно добавить поддержку тёмного режима и Pest тесты:

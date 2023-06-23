@@ -16,35 +16,20 @@
 
 ## Инструкция по запуску
 
-### 1. Клонируем проект
+### В терминале, из папки проекта, прописываем команды: 
 
-### 2. В терминале, из папки проекта, прописываем команды: 
-      composer update
-      php artisan key:generate
+Генерируем ключ
+    php artisan key:generate
 
-### 3. Устанавливаем Laravel Breeze и Tailwind CSS:
-      composer require laravel/breeze --dev
-  На вопрос, какой стек установить отвечаем 0 — Blade
-    
-#### Далее запускам инсталляцию Laravel Breeze следующей командой Artisan:
-      php artisan breeze:install
-      
-  * Также можно добавить поддержку тёмного режима и Pest тесты:
-  на следующих двух шагах на вопросы прописать yes
+Выполняем сборку
+    npm run build
 
-### 4. Запуск сервера Laravel c Vite
-#### Для запуска локального сервера выполните в терминале следующие команды.
-      npm run build
+Запускаем проект
+    php artisan serve
+переходим по ссылке: http://127.0.0.1:8000
 
-### 5. добавить в верхнее меню Dashboard пункт Posts, необходимо сделать следующее. В файле resources/views/layouts/navigation.blade.php после 17 строки, вставить фрагмент кода добавляющий пункт Posts:
-      <x-nav-link :href="route('posts.index')" :active="request()->routeIs('posts*')">
-          {{ __('Posts') }}
-      </x-nav-link>
-    
-### 6. Запускаем проект
-      php artisan serve
-  переходим по ссылке: http://127.0.0.1:8000
-
-### 7. Для входа можно зарегистрироваться или использовать тестовую учётку:
-      qqq@mail.ru
-      qqqqqqqq
+Для входа можно зарегистрироваться или использовать тестовую учётку:
+логин
+    qqq@mail.ru
+пароль
+    qqqqqqqq

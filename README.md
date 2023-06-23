@@ -13,3 +13,18 @@
     * Sqllite - в качестве бд
     * Laravel Breeze - для функционала аутентификации
     * Tailwind CSS - вместо бутстрапа
+
+### Инструкция по запуску
+
+#### Создаём в корне .env, копируем в него всё из файла env.example и в поле DB_CONNECTION=mysql меняем на DB_CONNECTION=sqlite
+
+  ### В терминале, из папки проекта, прописываем команды: 
+  
+      composer update
+      php artisan key:generate
+      php artisan serve
+
+  ### Для входа можно зарегистрироваться или использовать тестовую учётку:
+
+      qqq@mail.ru
+      qqqqqqqq
